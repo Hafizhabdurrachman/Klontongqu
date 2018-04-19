@@ -59,7 +59,7 @@
         <ImageView
             android:layout_height="150dp"
             android:layout_width="150dp"
-            android:src="@drawable/kacang"
+            android:src="@drawable/susu"
             android:id="@+id/imageView"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"/>
@@ -70,21 +70,21 @@
             android:orientation="vertical"
             android:layout_marginLeft="20dp">
             <TextView
-                android:text="Kacang Atom Garuda"
+                android:text="Susu Ultra Milk"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="10pt"
                 android:layout_marginTop="20dp"/>
             <TextView
-                android:text="Stock : 3"
+                android:text="Stock : 5"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="8pt"
                 android:layout_marginTop="10dp"/>
             <TextView
-                android:text="Harga: Rp 3.000"
+                android:text="Harga: Rp 15.000"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
@@ -105,7 +105,7 @@
         <ImageView
             android:layout_height="150dp"
             android:layout_width="150dp"
-            android:src="@drawable/kacang"
+            android:src="@drawable/susu"
             android:id="@+id/imageView"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"/>
@@ -116,21 +116,21 @@
             android:orientation="vertical"
             android:layout_marginLeft="20dp">
             <TextView
-                android:text="Kacang Atom Garuda"
+                android:text="Susu Ultra Milk"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="10pt"
                 android:layout_marginTop="20dp"/>
             <TextView
-                android:text="Stock : 3"
+                android:text="Stock : 5"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="8pt"
                 android:layout_marginTop="10dp"/>
             <TextView
-                android:text="Harga: Rp 3.000"
+                android:text="Harga: Rp 15.000"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
@@ -150,7 +150,7 @@
         <ImageView
             android:layout_height="150dp"
             android:layout_width="150dp"
-            android:src="@drawable/kacang"
+            android:src="@drawable/susu"
             android:id="@+id/imageView"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"/>
@@ -161,21 +161,21 @@
             android:orientation="vertical"
             android:layout_marginLeft="20dp">
             <TextView
-                android:text="Kacang Atom Garuda"
+                android:text="Susu Ultra Milk"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="10pt"
                 android:layout_marginTop="20dp"/>
             <TextView
-                android:text="Stock : 3"
+                android:text="Stock : 5"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textSize="8pt"
                 android:layout_marginTop="10dp"/>
             <TextView
-                android:text="Harga: Rp 3.000"
+                android:text="Harga: Rp 15.000"
                 android:layout_width="219dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
