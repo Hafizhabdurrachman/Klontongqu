@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#9FA8DA">
+        android:background="#BDBDBD">
 
         <TextView
             android:layout_width="match_parent"
@@ -39,11 +39,12 @@
             android:text="Waktu : "
             android:layout_marginLeft="100dp"
             android:textSize="20dp"/>
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1 Bulan"
+            android:text="1 Minggu"
             android:textSize="20dp"
             android:layout_marginLeft="10dp"
             android:padding="10dp"
@@ -100,62 +101,28 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
+                android:text="Pocari Sweet"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20"
+                android:text="12"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 10.000"
+                android:text="Rp. 6.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-
-        </TableRow>
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="20"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rp. 10.000"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
+                android:text="Rp. 72.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
 
@@ -168,62 +135,28 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
+                android:text="Roma Malkist"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20"
+                android:text="10"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 10.000"
+                android:text="Rp. 4.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-
-        </TableRow>
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="20"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rp. 10.000"
-                android:padding="10dp"
-                android:textSize="15dp"/>
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
+                android:text="Rp. 40.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
 
@@ -236,7 +169,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
+                android:text="indomie"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
@@ -250,14 +183,14 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 10.000"
+                android:text="Rp. 3.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
+                android:text="Rp. 60.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
 
@@ -270,7 +203,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Obat Nyamuk"
+                android:text="kacang"
                 android:padding="10dp"
                 android:textSize="15dp"/>
             <TextView
@@ -291,7 +224,75 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp. 2.000"
+                android:text="Rp. 200.000"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tolak angin"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.000"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 100.000"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nutrisari"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.000"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 40.000"
                 android:padding="10dp"
                 android:textSize="15dp"/>
 

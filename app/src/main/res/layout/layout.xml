@@ -77,7 +77,7 @@
         <ImageView
             android:layout_height="150dp"
             android:layout_width="150dp"
-            android:src="@drawable/kacang"
+            android:src="@drawable/pocari"
             android:id="@+id/imageView"
             android:layout_weight="1"
             android:layout_marginLeft="10dp"/>

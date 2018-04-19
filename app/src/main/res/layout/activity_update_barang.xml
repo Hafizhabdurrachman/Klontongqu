@@ -18,12 +18,12 @@
     <ImageView
         android:layout_width="120pt"
         android:layout_height="120pt"
-        android:src="@drawable/kacang"
+        android:src="@drawable/pocari"
 
         android:layout_gravity="center"/>
 
     <TextView
-        android:text="Kacang Atom garuda"
+        android:text="Pocari Sweet"
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -31,7 +31,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"/>
     <TextView
-        android:text="Stock : 3"
+        android:text="Stock : 20"
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -39,7 +39,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"/>
     <TextView
-        android:text="Harga : 3 000"
+        android:text="Harga : Rp. 6.000"
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -49,12 +49,12 @@
     <Button
 
         android:text="Update"
-        android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button4"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:textColor="#000000"
         android:background="#29B6F6"/>
 
 </LinearLayout>
