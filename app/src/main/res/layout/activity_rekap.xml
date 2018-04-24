@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rekap">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <TableRow
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                tools:text="Bulan"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_marginLeft="85dp"
+                tools:text="Pekan"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dip" >
+            <Spinner
+                android:padding="20dp"
+                android:id="@+id/sp_name"
+                android:entries="@array/bulan"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+            <Spinner
+                android:padding="20dp"
+                android:id="@+id/sp_name"
+                android:entries="@array/angka"
+                android:layout_marginLeft="65dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </TableRow>
+
+    </TableLayout>
+        <LinearLayout
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:layout_marginLeft="2pt"
+                android:textColor="#000000"
+                tools:text="Nama Barang"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:layout_marginLeft="10pt"
+                android:textColor="#000000"
+                tools:text="Terjual"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:layout_marginLeft="20pt"
+                android:textColor="#000000"
+                tools:text="Keuntungan"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5pt">
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:inputType="textPersonName"
+                android:text="Baygon" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="1" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="5000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5pt">
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:inputType="textPersonName"
+                android:text="Susu Ultramilk" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="1" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="5000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5pt">
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:inputType="textPersonName"
+                android:text="Tissue Mittu" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="1" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="textPersonName"
+                android:text="5000" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+</android.support.constraint.ConstraintLayout>
